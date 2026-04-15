@@ -6,7 +6,7 @@
 html {
   color: #222;
   line-height: 1.4;
-  font-size: 16pt;
+  font-size: 16px;
   font-family: 'Lexend', sans-serif;
 }
 
@@ -41,12 +41,24 @@ nav a{
 }
 
 .hero {
-  background-image: background-image: url("assets/SGheroImg.png"); 
+  background-image: url("assets/SGheroImg.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  padding-top: 5rem;
+  /*border-bottom: 10px solid #E04728;*/
+ 
+   
 }
 
-
+.hero h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 28rem;
+  color: white;
+  font-size: 5rem;    
+        
+}
 
 
