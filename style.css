@@ -20,9 +20,14 @@ header {
     
 }
 
+nav {
+    padding-right: 50px
+}
+
 .logo {
  display: flex;   
- float: left;   
+ float: left;
+ padding-left: 4rem;  
 }
 
 nav a{
@@ -35,8 +40,11 @@ nav a{
  font-weight: 700;   
 }
 
-hero {
-  background-image: 
+.hero {
+  background-image: background-image: url("assets/SGheroImg.png"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 
