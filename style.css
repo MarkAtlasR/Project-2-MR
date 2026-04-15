@@ -7,18 +7,36 @@ html {
   color: #222;
   line-height: 1.4;
   font-size: 16pt;
-  font-family: 'Lexend' sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 header {
-  display: flex;
   height: 100px;
+  width: 100vw; 
   background: #E04728;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
   position: fixed;
-  z-index: 10;
+  z-index: 10; 
+  padding: 10px; 
+    
+}
+
+.logo {
+ display: flex;   
+ float: left;   
+}
+
+nav a{
+ display: inline;
+ float: right;
+ padding: 30px 20px;
+ padding-right: 20px;
+ color: white;
+ text-decoration: none;
+ font-weight: 700;   
+}
+
+hero {
+  background-image: 
 }
 
 
