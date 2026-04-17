@@ -21,7 +21,7 @@ header {
 }
 
 nav {
-    padding-right: 50px
+  padding-right: 50px
 }
 
 .logo {
@@ -110,6 +110,56 @@ footer a:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.2em;
   /*font-size: 1.5rem;*/
+}
+
+@media only screen and (max-width: 480px) {
+  html{
+    font-size: 13px;
+  }
+
+  .logo {
+    padding-left: 1rem;
+  }
+
+  nav a {
+    padding-right: 2px;
+  }
+
+  header{
+    height: px
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    padding-top: 15rem;
+    padding-left: 0.7rem;
+  }
+
+  .hero {
+    background-size: contain;
+    background-position: center 100px;
+    height: 320px;
+  }
+
+  .grid.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 10px;
+    gap: 20px;
+  }
+
+  .img1 { grid-row: 1; }
+  .text1 { grid-row: 2; }
+
+  .img2 { grid-row: 3; }
+  .text2 { grid-row: 4; }
+
+  .img3 { grid-row: 5; }
+  .text3 { grid-row: 6; }
+
+  .img4 { grid-row: 7; }
+  .text4 { grid-row: 8; }
+  
 }
 
 
