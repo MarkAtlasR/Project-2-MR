@@ -67,5 +67,16 @@ nav a:hover {
         
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+.grid container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(240px, auto);
+}
+
 
 
