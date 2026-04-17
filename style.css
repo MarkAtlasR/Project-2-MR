@@ -80,6 +80,40 @@ img {
   margin: 50px 30px; 
 }
 
+footer {
+  width: 100vw;
+  height: 150px;
+  background: gray;
+  
+}
+
+footer a {
+  display: inline;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer-links {
+  width: 400px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  padding-top:45px;
+  float:right;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2em;
+  /*font-size: 1.5rem;*/
+}
+
+
+
 
 
 
