@@ -12,32 +12,39 @@ html {
 
 header {
   height: 100px;
-  width: 100vw; 
+  width: 100%;
   background: #e31919;
   position: fixed;
-  z-index: 10; 
-  padding: 10px; 
+  top: 0;
+  z-index: 10;
     
 }
 
 nav {
-  padding-right: 50px
+  height: 100%;
+  display: flex;
+  align-items: center;       
+  justify-content: space-between;
+  padding: 0 2rem;
 }
 
 .logo {
- display: flex;   
- float: left;
- padding-left: 4rem;  
+  height: auto;
+  width: 50;  
 }
 
 nav a{
- display: inline;
- float: right;
- padding: 35px 20px;
- padding-right: 20px;
- color: white;
- text-decoration: none;
- font-weight: 700;   
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  white-space: nowrap;   
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem; 
 }
 
 nav a:hover {
@@ -163,6 +170,7 @@ footer a:hover {
   .text4 { grid-row: 8; }
   
 }
+
 
 
 
