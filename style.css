@@ -54,25 +54,24 @@ nav a:hover {
 }
 
 .hero {
-  background-image: url("assets/SGheroImg.png"); 
+  background-image: url("assets/SGheroImg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
-  padding-top: 5rem;
-  /*border-bottom: 10px solid #E04728;*/
- 
-   
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 3rem;
+  text-align: center;
 }
 
 .hero h1 {
-  display: flex;
-  justify-content: center;
-  padding-top: 39rem;
   color: white;
-  font-size: 5rem;
-  text-shadow: 2px 2px 5px #000000;
-  line-height: 1.2;      
+  font-size: clamp(2rem, 7vw, 6rem);
+  text-shadow: 2px 2px 5px #000;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -134,16 +133,19 @@ footer a:hover {
   }
 
   .hero h1 {
-    font-size: 2.5rem;
-    padding-top: 15.2rem;
-    padding-left: 0.7rem;
-    line-height: 1.2;
+    font-size: clamp(1.2rem, 6vw, 2rem);
+    line-height: 1.1;
+    max-width: 95%;
+    padding: 0;
+    margin: 0;
   }
 
   .hero {
-    background-size: contain;
-    background-position: center 100px;
     height: 320px;
+    background-size: cover;
+    background-position: center;
+    padding: 1.5rem;
+    align-items: flex-end
   }
 
   .grid.container {
