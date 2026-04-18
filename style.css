@@ -87,6 +87,11 @@ img {
   margin: 50px 30px; 
 }
 
+h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
 footer {
   width: 100vw;
   height: 150px;
